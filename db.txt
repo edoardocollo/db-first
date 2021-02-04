@@ -1,0 +1,39 @@
+DATABASE NEGOZIO VIDEOGIOCHI
+////////////////////////////////////
+
+
+NOME DATABASE
+----------------
+negozio_videogiochi
+
+
+NOME TABELLA
+----------------
+videogiochi
+
+
+COLONNE TABELLA
+-----------------
+*id: BIGINT PRIMARY_KEY  
+*ean: INT NOTNULL UNIQUE
+*titolo: VARCHAR(50) NOTNULL
+*produttore: VARCHAR(30) NULL
+*paese di produzione: VARCHAR(20) NULL
+*data_rilascio: DATE NULL
+*pegi: TINYINT NULL
+*genere: VARCHAR(20) NOTNULL 
+*trama: TEXT NULL
+*lingue: VARCHAR(30) NOTNULL
+*console: VARCHAR(20) NOTNULL
+*copertina: VARCHAR(20) NULL
+*voto: TINYINT NULL DEFAULT(0)
+*edizione: VARCHAR(20) NULL
+*prezzo: FLOAT(5,2) NOTNULL
+*dimensione_articolo: VARCHAR(20) NULL
+*peso_g: SMALLINT NULL
+*disponibilita: TINYINT NULL
+*magazzino: TINYINT NULL
+*data_creazione: DATETIME NOTNULL
+*autore: VARCHAR(20) NOTNULL
+
+
